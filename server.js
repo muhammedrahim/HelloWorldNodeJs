@@ -3,7 +3,7 @@ var app = express();
 var port = process.env.port || 1337
 
 app.get('/', function (req, res) {
-    res.send('Hello New World, from NodeJs on Express');
+    res.send('Hello New World!');
 });
 
 var server = app.listen(port, function () {
